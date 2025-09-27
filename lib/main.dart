@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_responsive_practice/pages/home_screen.dart';
+import 'package:flutter_responsive_practice/pages/shop_home_screen.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomeScreen(),
+      home: const ShopHomeScreen(),
     );
   }
 }
